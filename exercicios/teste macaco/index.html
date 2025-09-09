@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="foto-p.png" type="image/x-icon">
+    <title>IMPORTANTE</title>
+</head>
+<body>
+    <h1>BOM DIA</h1>
+    <picture>
+        <source media="(max-width: 760px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1060px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexível">
+        <!--MP3,WAV, OGG-->
+        <!--Exemplo 1-->
+    </picture>
+    <h1>mensagem motivacional</h1>
+    <p>Escute e reflita sobre essa mensagem</p>
+    <audio src="midia/bom-dia.mp3.mp3" controls autoplay></audio>
+    <!--Exemplo 2-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/bom-dia2.mp3.mp3" type="audio/mpeg">
+    </audio>
+    <p>Infeslimente seu navegador não consegue reproduzir o <a href="midia/bom-dia2.mp3.mp3">Clique aki para baixar o arquivo MP3</a>
+</body>
+</html>
